@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    position: sticky;
+
+    h1 {
+        color: white;
+        font-size: 30px;
+        &::first-letter {
+            color: red;
+        }
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    
+    }
+
+    a {
+        text-decoration: none;
+        gap: 5px;
+        color: white;
+        transition: all .3s ease-in-out;
+    }
+
+}
+
+.rpg {
+    display: flex;
+
+    h2 {
+        text-align: center;
+    }
+
+    .card-grid {
+        
+    }
+}
